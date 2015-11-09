@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Betting Game</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <p>
+    <label>
+      Bet: 
+      <input id='bet' type='number' max='10' min='5' value='5'/>
+    </label>
+  </p>
+
+  <p>
+    <label>
+      Guess:
+      <input id='guess' type='number' min='1' max='10' value='5'/>
+    </label>
+  </p>
+
+  <p>
+    <label>
+      Money:
+      <input readonly id='money'>
+    </label>
+  </p>
+
+  <p>
+    <label>
+      The Number: 
+      <input readonly id='the-number'>
+    </label>
+  </p>
+  
+  <p>
+    <button id='guess-button'> Guess </button>  
+  </p>
+
+  <p>
+    <button id='reset-button'> Reset </button>
+  </p>
+
+</body>
+</html>
